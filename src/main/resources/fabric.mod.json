@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enigma",
+  "version": "${version}",
+  "name": "Enigma",
+  "description": "Client Minecraft 1.8.9 Enigma — mod Legacy Fabric.",
+  "authors": [
+    "Lucas"
+  ],
+  "contact": {
+    "homepage": "https://getenigma.xyz"
+  },
+  "license": "ARR",
+  "icon": "assets/enigma/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fr.bluewxll.enigma.client.EnigmaClient"
+    ]
+  },
+  "mixins": [
+    "enigma.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.8.9"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.bluewxll.enigma.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "EnigmaTitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
